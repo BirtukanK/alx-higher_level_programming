@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Defince function to print #"""
+"""Defince function to print sign"""
 
 
 def print_square(size):
-    """ function to print #
+
+    """ function to print
     Args:
         size (int): the size length of the square
     Raises:
