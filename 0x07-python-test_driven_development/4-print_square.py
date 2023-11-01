@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defince function to print #"""
 
+
 def print_square(size):
     """ function to print #
     Args:
