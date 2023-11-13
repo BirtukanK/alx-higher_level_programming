@@ -75,6 +75,7 @@ class Square(Rectangle):
                       "x": self.x,
                       "size": self.size,
                       "y": self.y}
+        return dictionary
 
     def __str__(self):
         """ overloading str() method"""
