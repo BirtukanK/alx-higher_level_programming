@@ -61,10 +61,8 @@ class Square(Rectangle):
                         self.__init__(self.width, self.height, self.x, self.y)
                     else:
                         self.id = v
-                elif k == "width":
-                    self.width = v
-                elif k == "height":
-                    self.height = v
+                elif k == "size":
+                    self.size = v
                 elif k == "x":
                     self.x = v
                 elif k == "y":
@@ -72,4 +70,5 @@ class Square(Rectangle):
 
     def __str__(self):
         """ overloading str() method"""
-        return "[Square] ({}) {}/{} - {}".format(id, self.x, self.y, self.size)
+        return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
+                                                 self.width)
