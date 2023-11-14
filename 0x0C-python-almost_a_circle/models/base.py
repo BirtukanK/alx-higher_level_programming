@@ -57,7 +57,7 @@ class Base:
 
         Args:
             cls - to access the class method
-            dictionary (dict) - pointer to a dictionary 
+            dictionary (dict) - pointer to a dictionary
         """
         if dictionary and dictionary != {}:
             if cls.__name__ == "Rectangle":
