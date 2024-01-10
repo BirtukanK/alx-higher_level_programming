@@ -18,7 +18,7 @@ const Square = class Square extends require('./5-square.js') {
       for (let i = 0; i < this.size; i++) {
         let x = '';
         for (let j = 0; j < this.size; j++) {
-          x += 'c';
+          x += c;
         }
         console.log(x);
       }
