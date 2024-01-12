@@ -9,9 +9,5 @@ Base = declarative_base()
 class State(Base):
     """ State class tht inherits from Base class"""
     __tablename__ = 'states'
-    id = Column(Integer(), primary_key=True, nullable=False)
+    id = Column(Integer(), primary_key=True)
     name = Column(String(128), nullable=False)
-
-    conn = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2],
-                           db=sys.argv[3], port=3306, host="localhost")
-    cur = conn.cursor()
