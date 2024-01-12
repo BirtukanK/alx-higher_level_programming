@@ -6,6 +6,8 @@ import sys
 import MySQLdb
 
 Base = declarative_base()
+
+
 class State(Base):
     """ State class tht inherits from Base class"""
     __tablename__ = 'states'
