@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ defines a function that finds a peak in a list"""
 
+
 def find_peak(list_of_integers):
     """ A function that returns peak of a list"""
     if list_of_integers == []:
